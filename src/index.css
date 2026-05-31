@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, Cambria, serif;
+  --font-sans: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", SFMono-Regular, monospace;
+
+  /* Custom Golden Palette for Luxury Accents */
+  --color-gold-50: #fbf8f0;
+  --color-gold-100: #eadecd;
+  --color-gold-200: #d6be9f;
+  --color-gold-300: #c1a171;
+  --color-gold-400: #b1854e;
+  --color-gold-500: #a3723a; /* True luxurious muted Gold */
+  --color-gold-600: #86592d;
+  --color-gold-700: #6a4220;
+  --color-gold-800: #523119;
+  --color-gold-900: #422614;
+  --color-gold-950: #29150a;
+
+  /* Rich Luxury Greys & Deep Charcoal Blacks */
+  --color-charcoal-50: #f6f6f6;
+  --color-charcoal-100: #ededed;
+  --color-charcoal-200: #dadada;
+  --color-charcoal-300: #b8b8b8;
+  --color-charcoal-400: #8f8f8f;
+  --color-charcoal-500: #6c6c6c;
+  --color-charcoal-600: #515151;
+  --color-charcoal-700: #3b3b3b;
+  --color-charcoal-800: #242424;
+  --color-charcoal-900: #121212; /* Rich Dark Charcoal */
+  --color-charcoal-950: #080808; /* Obsidian luxury black */
+}
+
+/* Base custom resets */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  background-color: var(--color-charcoal-950);
+  color: var(--color-charcoal-100);
+}
+
+/* Glassmorphism utility */
+.glass-glow {
+  background: rgba(18, 18, 18, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(193, 161, 113, 0.15); /* very subtle gold edge */
+}
+
+.glass-glow-light {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-glow-dark {
+  background: rgba(8, 8, 8, 0.85);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+/* Custom premium scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080808;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C1A171;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a3723a;
+}
+
+/* Sleek noise backdrop to mimic luxury textures */
+.noise-bg {
+  background-image: radial-gradient(rgba(255,255,255,0.15) 1px, transparent 0),
+                    radial-gradient(rgba(255,255,255,0.15) 1px, transparent 0);
+  background-size: 8px 8px;
+  background-position: 0 0, 4px 4px;
+}

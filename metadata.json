@@ -1,0 +1,6 @@
+{
+  "name": "Akhilesh Chauhan - Luxury Real Estate",
+  "description": "Premium real estate advisor specializing in luxury residential property investments in Gurgaon and Delhi NCR.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
