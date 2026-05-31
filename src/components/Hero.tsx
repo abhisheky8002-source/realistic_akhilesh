@@ -8,7 +8,7 @@ interface HeroProps {
 
 export default function Hero({ onExploreProperties, onBookConsultation }: HeroProps) {
   // Use our magnificent generated villa image path
-  const heroImage = '/src/assets/images/luxury_villa_hero_1780232615999.png';
+  const heroImage = 'https://res.cloudinary.com/dr5obadvt/image/upload/v1780234851/pexels-photo-6292341_aimxju.jpg';
 
   const containerVariants = {
     hidden: { opacity: 0 },

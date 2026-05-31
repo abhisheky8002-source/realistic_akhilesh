@@ -49,7 +49,7 @@ export const PROPERTIES: Property[] = [
     area: '7,800 Sq.Ft.',
     type: 'Penthouse',
     description: 'An architectural marvel offering double-height soaring ceilings, an infinity-edge wellness pool, a private temperature-controlled elevator lounge, and unobstructed panoramic views of the Aravalli range and city skyline.',
-    image: '/src/assets/images/property_golf_course_penthouse_1780232653322.png',
+    image: 'https://res.cloudinary.com/dr5obadvt/image/upload/v1780235352/pexels-photo-4174975_gbb9bu.jpg',
     status: 'Exclusive',
     tags: ['Private Pool', 'Double Height Ceilings', 'Off-Market', 'Chef Kitchen']
   },
@@ -63,7 +63,7 @@ export const PROPERTIES: Property[] = [
     area: '6,200 Sq.Ft.',
     type: 'Villa',
     description: 'Completed in striking warm woods, polished basalt floors, and towering sheets of low-iron structural glass. Features a sun-drenched central atrium garden, soundproof custom home theater, and full automated home controls.',
-    image: '/src/assets/images/property_luxury_builder_floor_1780232670378.png',
+    image: 'https://res.cloudinary.com/dr5obadvt/image/upload/v1780235411/pexels-photo-1498792_ufzpay.jpg',
     status: 'Signature Estate',
     tags: ['Automated Home', 'Sleek Atrium', 'Lush Gardens', 'Gurgaon Elite']
   },
